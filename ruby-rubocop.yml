@@ -672,9 +672,6 @@ Style/Lambda:
   Description: 'Use the new lambda literal syntax for single-line blocks.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#lambda-multi-line'
   Enabled: true
-  Exclude:
-    - 'app/graphql/types/**/*'
-    - 'app/graphql/interfaces/**/*'
 
 Style/LambdaCall:
   Description: 'Use lambda.call(...) instead of lambda.(...).'
