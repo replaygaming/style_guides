@@ -693,8 +693,9 @@ Style/MethodCallWithArgsParentheses:
   Description: This cop checks presence of parentheses in method calls containing parameters.
   IgnoreMacros: true
   Enabled: true
+  Exclude:
+    - Gemfile
   IgnoredMethods:
-    - gem
     - puts
     - namespace
     - task
