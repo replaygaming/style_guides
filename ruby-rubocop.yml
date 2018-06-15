@@ -694,6 +694,7 @@ Style/MethodCallWithArgsParentheses:
   IgnoreMacros: true
   Enabled: true
   IgnoredMethods:
+    - gem
     - puts
     - namespace
     - task
