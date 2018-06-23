@@ -902,7 +902,7 @@ Style/SignalException:
 Style/SingleLineBlockParams:
   Description: 'Enforces the names of some block params.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#reduce-blocks'
-  Enabled: true
+  Enabled: false
 
 Style/SingleLineMethods:
   Description: 'Avoid single-line methods.'
